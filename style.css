@@ -1,0 +1,107 @@
+body{
+    
+    width: 1600px;
+    height: 2340px;
+    background: #B2ACBA 0% 0% no-repeat padding-box;   
+}
+
+header{
+    display: grid;
+    grid-template-columns: 245px 160px 305px 180px 710px;
+    justify-items: center;
+    
+    
+    height: 80px;
+    background: #6200EA 0% 0% no-repeat padding-box;
+}
+
+.subscribe {
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    grid-column: 2 / 3;
+    place-self: center stretch;
+    padding: 13px 0 12px 0;
+    color: #6200EA;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    font-family: Montserrat;
+    letter-spacing: 2.4px;
+    font-weight: bold;
+}
+
+.logo {
+    grid-column: 4 / 5;
+    place-self: center stretch;
+    padding: 13px 0 12px 0;
+    color: #FFFFFF;
+
+}
+
+
+
+.menubar {
+    display: grid;
+    grid-template-columns: 245px repeat(8, 1fr) 245px;
+    grid-template-areas: ". business culture design health politics sience travel world .";
+    height: 25px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 33px 0 22px 0;
+}
+
+.item{
+    text-decoration: none;
+    color: #211138;
+    letter-spacing: 2.4px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.item:hover {
+    color: #6200EA; 
+    border: 0px solid #FFFFFF;
+    border-bottom-width: 5px;
+    border-bottom-color: #6200EA;
+    padding: 0 0 23px 0;
+}
+
+.business{ grid-area: business;}
+.culture{ grid-area: culture;}
+.design{ grid-area: design;}
+.health{ grid-area: health;}
+.politics{ grid-area: politics;}
+.sience{ grid-area: sience;}
+.travel{ grid-area: travel;}
+.world{ grid-area: world;}
+
+
+
+footer{
+    height: 40px;
+    font-family: Montserrat;
+    letter-spacing: 2.4px;
+    font-size: 15px;
+    text-align: center;
+    color: #B2ACBA;
+    text-transform: uppercase;
+    padding: 33px 0 32px 0;
+    background: #211138 0% 0% no-repeat padding-box;
+}
+
+.footer-name {
+    color: #6200EA;
+}
+
+
+
+
+
+
+
+
+
