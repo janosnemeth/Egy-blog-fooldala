@@ -1,13 +1,13 @@
 body{
     
-    width: 1600px;
+ /*   width: 1600px;*/
     height: 2340px;
     background: #B2ACBA 0% 0% no-repeat padding-box;   
 }
 
 header{
     display: grid;
-    grid-template-columns: 245px 160px 305px 180px 710px;
+    grid-template-columns: auto 160px 305px 180px auto;
     justify-items: center;
     
     
@@ -44,7 +44,7 @@ header{
 
 .menubar {
     display: grid;
-    grid-template-columns: 245px repeat(8, 1fr) 245px;
+    grid-template-columns: auto repeat(8, 1fr) auto;
     grid-template-areas: ". business culture design health politics sience travel world .";
     height: 25px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -78,6 +78,14 @@ header{
 .sience{ grid-area: sience;}
 .travel{ grid-area: travel;}
 .world{ grid-area: world;}
+
+
+.main{
+
+    height: 200px;
+}
+
+
 
 
 
